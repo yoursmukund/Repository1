@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Ruby On Rails Tutorial Sample App| <%= @title %></title>
+	<title><%= title %></title>
+	<%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+	<%= stylesheet_link_tag 'blueprint/print', :media => 'print' %>
 	<%= csrf_meta_tag %>
 </head>
 	<body>
