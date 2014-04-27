@@ -1,10 +1,19 @@
 DemoApp::Application.routes.draw do
+<<<<<<< HEAD
   get "pages/home"
   get "pages/contact"
   get "pages/about"
+=======
+  root  :to => 'pages#home'
+  get "/", :to => "pages#home"
+  get "/signup", :to => 'users#new'
+  get "/home" , :to => 'pages#home' 
+  get "/contact", :to => 'pages#contact'
+  get "/about", :to => 'pages#about'
+  get "/help", :to => 'pages#help'
+  get "/new", :to => 'users#new'
+>>>>>>> filling-in-layout
   resources :microposts
-
-  resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

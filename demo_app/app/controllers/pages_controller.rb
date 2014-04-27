@@ -9,4 +9,10 @@ class PagesController < ApplicationController
   def about
   	@title = "About"
   end
+<<<<<<< HEAD
+=======
+  def help
+  	@title = "Help"
+  end
+>>>>>>> filling-in-layout
 end
