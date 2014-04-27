@@ -1,9 +1,9 @@
 DemoApp::Application.routes.draw do
-<<<<<<< HEAD
+
   get "pages/home"
   get "pages/contact"
   get "pages/about"
-=======
+
   root  :to => 'pages#home'
   get "/", :to => "pages#home"
   get "/signup", :to => 'users#new'
@@ -12,7 +12,7 @@ DemoApp::Application.routes.draw do
   get "/about", :to => 'pages#about'
   get "/help", :to => 'pages#help'
   get "/new", :to => 'users#new'
->>>>>>> filling-in-layout
+
   resources :microposts
 
   # The priority is based upon order of creation: first created -> highest priority.

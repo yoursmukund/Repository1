@@ -36,8 +36,6 @@ describe PagesController do
     end
   end
 
-<<<<<<< HEAD
-=======
   describe "GET 'home'" do
    it "should be successful" do
       get 'home'
@@ -56,5 +54,5 @@ describe PagesController do
       response.should be_success
     end
   end
->>>>>>> filling-in-layout
+
 end
